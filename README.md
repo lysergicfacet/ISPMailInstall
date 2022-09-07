@@ -1,5 +1,8 @@
 # ISPMailInstall
 
+NOTE - after install, change the mydestination line in /etc/postfix/main.cf to this
+mydestination = localhost.pro, localhost             
+
 - Multi Domain Mail Server Installation Tool for Debian 10 and Ubuntu 20.04 Linux
 
 Totally based on ISPMail Tutorial by Christoph Haas at https://workaround.org/ispmail
