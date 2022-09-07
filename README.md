@@ -3,6 +3,14 @@
 NOTE - after install, change the mydestination line in /etc/postfix/main.cf to this
 mydestination = localhost.pro, localhost             
 
+NOTE - – 110 .. POP3
+– 995 .. POP3S
+– 143 .. IMAP
+– 993 .. IMAPS
+– 25 .. SMTP
+– 465 .. SMTPS, secured by SSL (legacy)
+– 587 .. MSA, can be secured by STARTTLS command
+
 - Multi Domain Mail Server Installation Tool for Debian 10 and Ubuntu 20.04 Linux
 
 Totally based on ISPMail Tutorial by Christoph Haas at https://workaround.org/ispmail
