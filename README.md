@@ -1,4 +1,5 @@
 # ISPMailInstall
+NOTE - to stop install issues, install libhyperscan5 first.  
 
 NOTE - after install, change the mydestination line in /etc/postfix/main.cf to this
 mydestination = localhost.pro, localhost             
